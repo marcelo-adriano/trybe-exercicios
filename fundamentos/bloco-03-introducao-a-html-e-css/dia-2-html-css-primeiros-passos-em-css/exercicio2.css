@@ -1,0 +1,28 @@
+      body{
+        font-size: 16px;
+      }
+
+      h1{
+        font-family: sans-serif;
+      }
+
+      p{
+        font-weight: 600;
+        font-size: 3em;
+        font-style: italic;
+      }
+
+      #cor1{
+        color: yellow;
+        line-height: 1.1em;
+      }
+
+      #cor2{
+        color: red;
+        text-decoration:underline;
+      }
+
+      #cor3{
+        color: brown;
+        text-decoration: line-through;
+      }  
