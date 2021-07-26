@@ -1,0 +1,51 @@
+div:hover{
+    border: 5px solid black;
+}
+
+div:nth-of-type(3){
+    font-size: 2em; 
+}
+  
+div:nth-of-type(odd){
+    font-style: italic;
+}
+
+.corprimaria{
+    background-color: red;
+}
+
+.corprimaria h3{
+    color: aliceblue;
+}
+
+.corsecundaria{
+    background-color: orange;
+}
+
+.corsecundaria h3{
+    font-weight: 100;
+}
+
+.corcomplementar{
+    background-color: blue;
+}
+
+.corcomplementar h3{
+    text-decoration: line-through;
+}
+
+.corescura{
+    background-color: darkred;
+}
+
+.corescura h3{
+    text-decoration: overline;
+}
+
+.corclara{
+    background-color: lightcoral;
+}
+
+.corclara h3{
+    text-decoration: underline;
+}
