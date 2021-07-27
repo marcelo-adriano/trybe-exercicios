@@ -1,0 +1,50 @@
+body{
+    
+}
+
+header{
+    text-align: center;
+}
+
+nav.principal{
+    text-align: center;
+}
+
+nav.principal li{
+    display: inline-block;
+}
+
+main{
+    width: 800px;
+    margin:0 auto;
+}
+
+article{
+    width: 70%;
+    padding: 10px;
+    float: left;
+}
+
+section{
+}
+
+img.fotosfatos{
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+aside{
+    width: 25%;
+    float: right;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+aside table th{
+    text-transform: uppercase;
+}
+
+span.nomecientifico{
+    font-style: italic;
+}
