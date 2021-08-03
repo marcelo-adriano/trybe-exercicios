@@ -1,3 +1,6 @@
+//Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas 
+//constantes, a e b , definidas no começo com os valores que serão operados.
+
 function inteiroAleatorio() {
     return Math.round(Math.random()*10)
 }
