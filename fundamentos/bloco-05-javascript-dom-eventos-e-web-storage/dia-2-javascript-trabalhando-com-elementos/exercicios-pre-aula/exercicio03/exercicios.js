@@ -9,7 +9,6 @@ function removerFilhos(pai, exessao) {
     
     for (let index = 0; index < limite; index += 1) {
         let checkId = filhos[indexNode].id;
-        
         if (checkId === exessao) {
             indexNode += 1;
         } else {
