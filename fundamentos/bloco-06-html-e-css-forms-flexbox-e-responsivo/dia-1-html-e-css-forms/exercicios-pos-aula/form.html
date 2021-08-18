@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currículo</title>
+</head>
+<body>
+    <header>
+        <h1>Currículo</h1>
+    </header>
+    <form action="">
+        <fieldset>
+            <label for="name-input">Nome:</label><input type="text" id="name-input" name="nome" maxlength="40" required>
+            <label for="email-input">E-mail:</label><input type="email" id="email-input" name="email" maxlength="50" required>
+            <label for="cpf-input">CPF:</label><input type="text" id="cpf-input" name="cpf" maxlength="11" required>
+            <label for="address-input">Endereço:</label><input type="text" id="address-input" name="address" maxlength="200" required>
+            <label for="city-input">Cidade:</label><input type="text" id="city-input" name="city" maxlength="28" required>
+            <label for="state-input">Estado:</label>
+            <br>
+            <select name="estado" id="state-input" required>
+            </select>
+            <h3>Casa ou Apartamento?</h3>
+            <label for="casa-radio"><input type="radio" id="casa-radio" name="radio-input" value="casa" required> Casa</label>
+            <label for="apartamento-radio"><input type="radio" id="apartamento-radio" name="radio-input" value="apartamento" required> Apartamento</label>
+        </fieldset>
+        <fieldset>
+            <label for="city-input">Resumo:</label>
+            <br>
+            <textarea name="resumo" id="resumo" cols="30" rows="10" maxlength="1000" required></textarea>
+            <br>
+            <label for="cargo-input">Cargo:</label><input type="text" id="cargo-input" name="cargo" maxlength="40" required>
+            <label for="cargo-descricao">Descrição do cargo:</label><input type="text" id="cargo-descricao" name="descricao" maxlength="500" required>
+            <label for="date-input">Data de inicio:</label><input type="date" id="date-input" name="data" required>
+        </fieldset>
+        <button type="submit" id="button-submit">Enviar</button>
+    </form>
+    <button id="limpar">Limpar</button>
+    <div id="informacoe-corretas">
+        <ul id="lista-correta">
+
+        </ul>
+    </div>
+    <div id="informacoes-erradas">
+        <ul id="lista-errada">
+
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

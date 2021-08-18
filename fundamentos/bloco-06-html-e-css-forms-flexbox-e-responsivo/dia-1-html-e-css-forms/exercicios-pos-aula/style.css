@@ -1,0 +1,11 @@
+input {
+    display: block;
+}
+h3 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#casa-radio , #apartamento-radio {
+    display: inline;
+}
