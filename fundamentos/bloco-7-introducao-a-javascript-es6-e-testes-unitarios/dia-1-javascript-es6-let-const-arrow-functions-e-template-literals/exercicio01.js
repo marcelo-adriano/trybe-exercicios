@@ -11,3 +11,4 @@ function testingScope(escopo) {
   }
 
   testingScope(true);
+  
