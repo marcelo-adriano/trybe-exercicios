@@ -1,0 +1,1 @@
+const adicionarEntrada = (objeto, chave, valor) => objeto[chave] = valor;
