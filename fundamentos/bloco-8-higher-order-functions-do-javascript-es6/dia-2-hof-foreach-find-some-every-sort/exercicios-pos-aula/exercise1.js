@@ -181,13 +181,9 @@ assert.strictEqual(someBookWasReleaseOnThe80s(), true);
 //Exercício 07
 
 function authorUnique() {
-  let resposta = true;
-  books.forEach((livro, index, lista) => {
-      if (lista.some((elemento) => elemento.author.birthYear === livro.author.birthYear)) {
-          resposta = false;
-      }
-  })
-  return resposta;
+  return books.every((livro, index, lista) => {
+    return !lista.some((elemento) => elemento.author.birthYear === livro.author.birthYear);
+  });
 }
 
 assert.strictEqual(authorUnique(), false);
