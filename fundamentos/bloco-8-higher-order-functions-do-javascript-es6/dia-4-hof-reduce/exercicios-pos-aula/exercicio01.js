@@ -8,6 +8,7 @@ const arrays = [
 
 function flatten() {
     return arrays.reduce((elemento, proximo) => {
+        console.log(elemento);
         return elemento.concat(proximo);
     });
 }
