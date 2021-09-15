@@ -1,5 +1,5 @@
 // Faça uma lista com as suas frutas favoritas
-const specialFruit = ['melão', 'melancia', 'morango'];
+const specialFruit = ['laranja', 'couve', 'louro'];
 
 // Faça uma lista de complementos que você gostaria de adicionar
 const additionalItens = ['arroz', 'feijão', 'farofa'];
