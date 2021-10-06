@@ -1,0 +1,18 @@
+.pokemon-card, .pokemon-info {
+    display: flex;
+    align-items: center;
+}
+
+.pokemon-card {
+    flex-grow: 1;
+    justify-content: center;
+    border: 5px double black;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+    margin: 5px 2.5px;
+    padding: 0px 5px;
+}
+
+.pokemon-info {
+    flex-direction: column;
+}
