@@ -1,0 +1,22 @@
+.header, .conteudo, .cartao, .footer {
+  text-align: center;
+}
+
+.header {
+  background-color: lightblue;
+}
+
+.conteudo {
+  background-color: lightcoral;
+  padding: 5px;
+}
+
+.cartao {
+  border: 4px double black;
+  margin: 4px 0px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.footer {
+  background-color: lightseagreen;
+}
