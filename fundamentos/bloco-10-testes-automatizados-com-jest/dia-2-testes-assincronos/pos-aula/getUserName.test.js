@@ -3,9 +3,11 @@ const { getUserName } = require('../pos-aula/getUserName.js');
 // Exercicio 02
 
 describe('Testando promise - getUserName', () => {
-  it('Caso em que o usuário é encontrado', () => {
+  it('Caso em que o usuário Mark é encontrado', () => {
       return expect(getUserName(1)).resolves.toEqual('Mark');
-    //   return expect(getUserName(2)).resolves.toEqual('Paul');
+    });
+  it('Caso em que o usuário Paul é encontrado', () => {
+      return expect(getUserName(2)).resolves.toEqual('Paul');
     });
 
   it('Caso em que o usuário não é encontrado', () => {
