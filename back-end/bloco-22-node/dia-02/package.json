@@ -1,0 +1,11 @@
+{
+  "name": "dia-02",
+  "version": "1.0.0",
+  "description": "Exercicios do dia 2 do bloco 22",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcelo Adriano",
+  "license": "ISC"
+}
