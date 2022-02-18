@@ -1,0 +1,20 @@
+{
+  "name": "dia-03",
+  "version": "1.0.0",
+  "description": "Exercicios do dia 3 do bloco 22",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests",
+    "readFile": "mocha tests/exemplo.test.js",
+    "exercicio01": "mocha tests/exercicio01.test.js",
+    "exercicio04": "mocha tests/exercicio04.test.js"
+  },
+  "author": "Marcelo Adriano",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0",
+    "sinon": "^13.0.1"
+  }
+}
