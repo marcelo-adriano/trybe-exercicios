@@ -1,0 +1,24 @@
+{
+  "name": "dia-04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon hello-express",
+    "exemplo01": "nodemon paraFixar/exemplo01.js",
+    "exemplo02": "nodemon paraFixar/exemplo02.js",
+    "exercicios": "nodemon exerciciosDia"
+  },
+  "keywords": [],
+  "author": "Marcelo Adriano",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
